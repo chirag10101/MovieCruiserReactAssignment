@@ -1,0 +1,62 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "movieID": "101",
+      "title": "Don 2",
+      "releaseDate": "1977",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Don_2022_poster.jpg/330px-Don_2022_poster.jpg"
+    },
+    {
+      "id": "2",
+      "movieID": "102",
+      "title": "Lagaan",
+      "releaseDate": "2005",
+      "posterPath": "https://th.bing.com/th?id=OIP.bPBCgvp9N0SUbVYJnBg2IQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=2.5&pid=3.1&rm=2"
+    },
+    {
+      "id": "3",
+      "movieID": "103",
+      "title": "Animal",
+      "releaseDate": "2023",
+      "posterPath": "https://content.tupaki.com/en/feeds/2023/12/01/212181-animal.webp"
+    },
+    {
+      "id": "4",
+      "movieID": "104",
+      "title": "Bahubali",
+      "releaseDate": "2015",
+      "posterPath": "https://www.roundtableindia.co.in/wp-content/uploads/2017/05/bahubali_poster.jpg"
+    },
+    {
+      "posterPath": "https://assets-in.bmscdn.com/discovery-catalog/events/et00301886-dbzfxeatbe-landscape.jpg",
+      "releaseDate": "2023",
+      "title": "Salaar",
+      "movieID": "120",
+      "id": "mkZO6KJ"
+    },
+    {
+      "title": "Iron man 3",
+      "posterPath": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0BD9501BEACE8B4B1901DA0A7FAE3925AD8B8BF6EE7C5E2EF7D3C5181EF421CF/scale?width=1200&aspectRatio=1.78&format=jpeg",
+      "releaseDate": "2013",
+      "movieID": "121",
+      "id": "hIC_kJ6"
+    },
+    {
+      "title": "12th Fail ",
+      "movieID": "125",
+      "releaseDate": "2023",
+      "posterPath": "https://m.media-amazon.com/images/M/MV5BNDY5YWMzOWEtNTVhZi00NTdmLWIxNGItN2Q5ZmIxNGRkZDYyXkEyXkFqcGdeQXVyMTYzMTU3Njgx._V1_.jpg",
+      "id": "Q-hM4LA"
+    }
+  ],
+  "favourites": [
+    {
+      "title": "Lagaan",
+      "releaseDate": "2005",
+      "posterPath": "https://th.bing.com/th?id=OIP.bPBCgvp9N0SUbVYJnBg2IQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=2.5&pid=3.1&rm=2",
+      "movieID": "102",
+      "id": 2
+    }
+  ]
+}

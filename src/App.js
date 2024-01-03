@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import AllMovies from './components/AllMovies';
+import FavMovies from './components/FavMovies';
+import { MovieProvider } from './MovieContext';
+import EditFormModal, { EditModalContextProvider } from './components/EditFormModal';
+import NewFormModal, { NewModalContextProvider } from './components/NewFormModal';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MovieProvider>
+      <EditModalContextProvider>
+        <NewModalContextProvider>
+          <NewFormModal/>
+          <EditFormModal/>
+          <div className="row container-fluid d-flex justify-content-center">
+            <AllMovies/> 
+            <FavMovies/>
+          </div>
+        </NewModalContextProvider>
+      </EditModalContextProvider>
+    </MovieProvider>
   );
 }
 
